@@ -1,0 +1,35 @@
+{
+  "name": "scrap_images",
+  "version": "1.0.0",
+  "description": "this is mean stack app in which use can search for a image and top 15 images will be scrap from google search and save it in mongodb. ",
+  "main": "src.server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon bootstrap.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shivam8800/scrapImages.git"
+  },
+  "keywords": [
+    "hard",
+    "work",
+    "is",
+    "the",
+    "key",
+    "of",
+    "success"
+  ],
+  "author": "shivam raj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shivam8800/scrapImages/issues"
+  },
+  "homepage": "https://github.com/shivam8800/scrapImages#readme",
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "hapi": "^16.6.2",
+    "nodemon": "^1.12.1"
+  }
+}
