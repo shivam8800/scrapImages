@@ -1,16 +1,14 @@
 import Hapi from 'hapi';
 import routes from './routes'
 
-
 const server = new Hapi.Server();
 
 server.connection({
-	port:8000
+	port:8000,
+	routes: { cors: true }
 });
 
-
 server.route(routes);
-
 
 
 server.start(err =>{
